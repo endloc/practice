@@ -12,6 +12,6 @@ public class Main {
             numbers[i] = input.nextInt();
         }
         java.util.Arrays.sort(numbers);
-        System.out.println("Max element is " + numbers[size - 1]);
+        System.out.println("Max element is " + numbers[0]);
     }
 }
